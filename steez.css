@@ -91,12 +91,12 @@ font-family: 'Average', serif;
 .normal-text{
     font-family: 'Spinnaker', sans-serif;
     font-size: 1rem;
-    color: mediumpurple;
+    color: rgb(14, 231, 148);
 }
 
 .emph{
     font-family: 'Spinnaker', sans-serif;
-    color: purple;
+    color: rgb(255, 123, 0);
 }
 
 /* BUTTONS */
