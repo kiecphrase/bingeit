@@ -1,0 +1,132 @@
+/* GENERAL */
+
+body {
+    background-image: url('img/b3.webp');
+    background-size: cover;
+}
+
+/* DIVS */
+.setter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.holder{
+    position: relative;
+    height: 99%;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textboy{
+    text-align: center;
+}
+
+.informboy{
+    padding: 0.4rem;
+    text-align: center;
+    background-color: rgba(83, 81, 83, 0.812);
+}
+
+
+.space-lg{
+    margin: 10rem;
+}
+
+.space-md{
+    margin: 5rem;
+}
+
+.space-sm{
+    margin: 2.5rem;
+}
+
+.space-xs{
+    margin: 1.25rem;
+}
+
+#get{
+    display: inline;
+}
+
+#show{
+    display: none;
+}
+
+/* TEXT */
+/* 
+
+font-family: 'Rock Salt', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Spinnaker', sans-serif;
+font-family: 'Average', serif;
+
+*/
+
+.title-text{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 6rem;
+    color: teal;
+}
+
+.added-text{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2rem;
+}
+
+.inform-text{
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.25rem;
+    color: rgb(49, 207, 17);
+}
+
+.normal-text{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 1rem;
+    color: mediumpurple;
+}
+
+.emph{
+    font-family: 'Spinnaker', sans-serif;
+    color: purple;
+}
+
+/* BUTTONS */
+
+.sub {
+    font-family: 'Average', serif;
+    font-size: 1.2rem;
+    background-color: turquoise;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgb(31, 104, 96);
+
+}
+.sub:hover{
+    box-shadow: -2px -4px 3px rgb(31, 104, 96);
+}
+
+.more-life{
+    position: fixed;
+    right: 3rem;
+    top: 1rem;
+    z-index: 10;
+    text-decoration: none;
+    color: rgb(200, 255, 0);
+    padding: 0.35rem;
+}
+
+.more-life:hover {
+    text-decoration: none;
+    color: rgb(200, 255, 0);
+    background-color: rgb(58, 5, 53);
+    border-radius: 5px;
+}
